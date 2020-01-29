@@ -16,7 +16,7 @@ Now I ordered 2 boards from China:
 
 Here are my first tests.
 
-## Please read   Comment.pdf   for more information !***
+## Please read   Comment.pdf   for more information !
 
 **Requisits:**
 
