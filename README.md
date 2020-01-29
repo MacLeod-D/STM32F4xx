@@ -23,7 +23,7 @@ Here are my first tests.
 1) Arduino-IDE 1.8.10
 
 2) Boards Definition:     https://github.com/danieleff/STM32GENERIC
-                          It includes freeRTOS libraiy
+                          It includes **freeRTOS** library
 3) Toolchain as mentioned in 2)
 
 4) Unzip **STM32F4_Timer1_InputCaptureISR_BU4.zip** into your Arduino Sketches folder 
