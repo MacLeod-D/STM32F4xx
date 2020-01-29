@@ -16,5 +16,19 @@ Now I ordered 2 boards from China:
 
 Here are my first tests.
 
-***Please read   Comment.pdf   for more information !***
+##Please read   Comment.pdf   for more information !***##
+
+**Requisits:**
+
+1) Arduino-IDE 1.8.10
+
+2) Boards Definition:     https://github.com/danieleff/STM32GENERIC
+                          It includes freeRTOS libraiy
+3) Toolchain as mentioned in 2)
+
+4) Unzip **STM32F4_Timer1_InputCaptureISR_BU4.zip** into your Arduino Sketches folder 
+
+5) STM32F407VE (Black Board)
+
+6) USB-FTDI to connect Board to PC
 
