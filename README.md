@@ -2,6 +2,7 @@
 ## Running RTOS or CoopOS
 ## > 750000 External Interrupts / s
 ## > 750000 DA Conversions / s
+## > 50000 Task Switches / s (RTOS and CoopOS)
 ## Use InputCapture for 6 ns Ticks
 ## Complete documented Source and 14 Page Explanation
 
@@ -17,6 +18,10 @@ Now I ordered 2 boards from China:
 Here are my first tests.
 
 ## !!! Please read   Comment.pdf   for more information !!!
+
+-----------
+
+-----------
 
 **Requisits:**
 
