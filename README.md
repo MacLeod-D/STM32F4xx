@@ -20,6 +20,20 @@ Here are my first tests.
 ## !!! Please read   Comment.pdf   for more information !!!
 
 -----------
+## BTW: Task Switches
+
+A lot of people think, an RTOS with a ticktime of 1ms will change to the (READY-)task with highest priority ever 1 ms.
+
+**That is not true !**
+
+Most RTOS Tasks have a TaskYIELD(), vTaskDelay() or a "wait for something" inside. And that means the tasks give up their CPU time very frequently! You will find tasks, which use the full 1 ms time, not very often !
+So it could be very important to analyse how long the longest gap is between task switches.
+Mostly this gap is much smaller than 1 ms.
+If this gap is for instance garanteed smaller than 100 us then you can say, that a READY task never has to wait longer than 100 us for its execution - even if the ticktime is 1 ms.
+
+** This time may be very important !
+
+Here I show how to measure this time gap.
 
 -----------
 
@@ -37,3 +51,4 @@ Here are my first tests.
 
 6) USB-FTDI to connect Board to PC
 
+7) Scope and/or Logic Analyser are highly recommended !
