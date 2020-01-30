@@ -1,5 +1,5 @@
-This project uses CoopOS "classic" - no stackframes
-Another version with CoopOS_Stack (each Task has its own Stack) is running.
+This project uses CoopOS "classic" - no stackframes<br>
+Another version with CoopOS_Stack (each Task has its own Stack) is running.<br>
 Will be published soon.
 
 # STM32F407 - Some Tests with RTOS / CoopOS, DAC, InputCapture 
