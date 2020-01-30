@@ -1,3 +1,7 @@
+This project uses CoopOS "classic" - no stackframes
+Another version with CoopOS_Stack (each Task has its own Stack) is running.
+Will be published soon.
+
 # STM32F407 - Some Tests with RTOS / CoopOS, DAC, InputCapture 
 ## Running RTOS or CoopOS
 ## > 750000 External Interrupts / s
